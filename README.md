@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 Digital Store
 
-## Getting Started
+A modern **Full-Stack E-Commerce** web application built with **Next.js**, **React**, **MongoDB**, and **Tailwind CSS**.
 
-First, run the development server:
+This project includes a complete online digital store with a secure **Admin Dashboard** for managing products and customer orders.
+
+---
+
+# ✨ Features
+
+## 👤 User Features
+
+- User Registration
+- User Login
+- Authentication
+- Browse Products
+- Product Categories
+  - 💻 Laptops
+  - 📱 Mobile Phones
+  - 📟 Tablets
+- Product Details Page
+- Shopping Cart
+- Checkout
+- Place Orders
+- Product Image Upload
+
+---
+
+## 🔐 Admin Dashboard
+
+- Secure Admin Login
+- Dashboard
+- View Orders
+- Edit Orders
+- Delete Orders
+- Add Products
+- Edit Products
+- Delete Products
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| Next.js 16 | React Framework |
+| React 19 | UI Library |
+| JavaScript | Programming Language |
+| MongoDB | Database |
+| Mongoose | ODM |
+| Tailwind CSS | Styling |
+| REST API | Backend Communication |
+
+---
+
+# 📁 Project Structure
+
+```text
+apps
+├── frontend
+└── admin
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/pooriagheychivand/digital-store-nextjs.git
+```
+
+Go to project directory
+
+```bash
+cd digital-store-nextjs
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env.local` file and add your MongoDB connection string.
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# 🗄 Database
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+MongoDB is used for:
 
-## Learn More
+- Users
+- Products
+- Orders
+- Authentication
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 📸 Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> Screenshots will be added soon.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 🚀 Future Improvements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Product Search
+- Product Filtering
+- Payment Gateway Integration
+- Wishlist
+- User Profile
+- Order Status Tracking
+- Product Reviews
+
+---
+
+# 👨‍💻 Author
+
+**Pooria Gheychivand**
+
+GitHub:
+https://github.com/pooriagheychivand
+
+---
+
+## ⭐ If you like this project, don't forget to give it a star!
