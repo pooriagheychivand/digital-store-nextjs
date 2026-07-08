@@ -1,0 +1,36 @@
+import { NextResponse } from "next/server";
+import { connectedToDatabase } from "../../../lib/mongodb";
+import Order from "../../../models/Order";
+
+
+export async function POST(req) {
+    try{
+        await connectedToDatabase()
+
+        const{user , cart , totalPrice} = await req.json()
+
+        const newOrder = new Order({
+            user,
+            cart,
+            totalPrice,
+            status: "pending",
+            // createAt: new Data()
+        })
+
+        await newOrder.save()
+
+        return NextResponse.json({massage:"سفارش با موفقیت ثبت شد"}, {status:201})
+    }
+    catch (error) {
+    console.error("ERROR:", error);
+
+    return NextResponse.json(
+        {
+            message: error.message
+        },
+        {
+            status: 500
+        }
+    );
+}
+}
