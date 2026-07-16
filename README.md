@@ -22,7 +22,6 @@ This project includes a complete online digital store with a secure **Admin Dash
 - Shopping Cart
 - Checkout
 - Place Orders
-- Product Image Upload
 
 ---
 
@@ -36,10 +35,11 @@ This project includes a complete online digital store with a secure **Admin Dash
 - Add Products
 - Edit Products
 - Delete Products
+- Product Image Upload
 
 ---
 
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
 | Technology | Description |
 |------------|-------------|
@@ -59,33 +59,36 @@ This project includes a complete online digital store with a secure **Admin Dash
 apps
 ├── frontend
 └── admin
+
+screenshots
+README.md
 ```
 
 ---
 
 # ⚙️ Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/pooriagheychivand/digital-store-nextjs.git
 ```
 
-Go to project directory
+### Go to the project directory
 
 ```bash
 cd digital-store-nextjs
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Create a `.env.local` file and add your MongoDB connection string.
+### Create a `.env.local` file and add your MongoDB connection string.
 
-Run the development server
+### Run the development server
 
 ```bash
 npm run dev
@@ -93,7 +96,7 @@ npm run dev
 
 ---
 
-# 🗄 Database
+# 🗄️ Database
 
 MongoDB is used for:
 
@@ -106,7 +109,75 @@ MongoDB is used for:
 
 # 📸 Screenshots
 
-> Screenshots will be added soon.
+## 🏠 Home
+
+![Home](screenshots/home.png)
+
+---
+
+## 🛍 Products
+
+![Products](screenshots/products.png)
+
+---
+
+## 📄 Product Details
+
+![Product Details](screenshots/product-details.png)
+
+---
+
+## 💻 Laptop Category
+
+![Laptop Category](screenshots/labtop-category.png)
+
+---
+
+## 📱 Mobile Category
+
+![Mobile Category](screenshots/mobail-category.png)
+
+---
+
+## 📟 Tablet Category
+
+![Tablet Category](screenshots/tablet-category.png)
+
+---
+
+## 🔐 Login & Cart
+
+![Login and Cart](screenshots/login%20and%20cart.png)
+
+---
+
+## 📊 Admin Dashboard
+
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+---
+
+## 📦 Products Management
+
+![Products Admin](screenshots/products-admin.png)
+
+---
+
+## 📋 Orders Management
+
+![Orders Admin](screenshots/orders-admin.png)
+
+---
+
+## ➕ Add Product
+
+![Add Product](screenshots/add-product.png)
+
+---
+
+## ✏️ Edit Product
+
+![Edit Product](screenshots/edit-product.png)
 
 ---
 
@@ -131,4 +202,4 @@ https://github.com/pooriagheychivand
 
 ---
 
-## ⭐ If you like this project, don't forget to give it a star!
+⭐ **If you like this project, don't forget to give it a star!**
